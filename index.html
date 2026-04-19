@@ -5,83 +5,48 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wilson S. Martins | Academic Homepage</title>
 <style>
-body{font-family:Arial,sans-serif;max-width:1000px;margin:auto;padding:20px;line-height:1.6;color:#222}
-header{padding:40px 0;border-bottom:2px solid #e5e7eb}
-nav a{margin-right:15px;text-decoration:none;color:#0f3d91;font-weight:bold}
-section{padding:35px 0;border-bottom:1px solid #eee}
-h1,h2{color:#0f3d91}
-.card{background:#f8fafc;padding:18px;border-radius:12px;margin:10px 0}
-footer{padding:30px 0;color:#666;font-size:14px}
-ul{padding-left:20px}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Inter,Arial,sans-serif;background:#f5f7fb;color:#1f2937;line-height:1.7}
+.container{max-width:1100px;margin:auto;padding:0 24px}
+header{background:linear-gradient(135deg,#0f172a,#1d4ed8);color:white;padding:70px 0}
+.hero{display:grid;grid-template-columns:1.2fr 0.8fr;gap:40px;align-items:center}
+.hero img{width:100%;border-radius:20px;box-shadow:0 20px 40px rgba(0,0,0,0.25)}
+nav{margin-top:25px;display:flex;flex-wrap:wrap;gap:14px}
+nav a{color:white;text-decoration:none;padding:10px 14px;border:1px solid rgba(255,255,255,.25);border-radius:999px}
+section{padding:60px 0}
+h2{font-size:30px;color:#0f172a;margin-bottom:20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px}
+.card{background:white;padding:22px;border-radius:18px;box-shadow:0 8px 24px rgba(0,0,0,.06)}
+ul{padding-left:18px}
+footer{background:#0f172a;color:#cbd5e1;padding:30px 0;margin-top:40px}
+.tag{display:inline-block;background:#dbeafe;color:#1d4ed8;padding:6px 12px;border-radius:999px;font-size:14px;margin:4px 6px 0 0}
+@media(max-width:850px){.hero{grid-template-columns:1fr}.hero img{max-width:520px;margin:auto}}
 </style>
 </head>
 <body>
 <header>
-<h1>Wilson S. Martins</h1>
-<p>Postdoctoral Research Assistant, UMass Boston</p>
-<p>Theoretical AMO physics • Rydberg atoms and ions • Driven quantum systems • Quantum thermodynamics</p>
+<div class="container hero">
+<div>
+<h1 style="font-size:48px;margin-bottom:12px;">Wilson S. Martins</h1>
+<p style="font-size:20px;opacity:.95;">Postdoctoral Research Assistant, UMass Boston</p>
+<p style="margin-top:16px;font-size:18px;max-width:650px;">Theoretical quantum physics, Rydberg atoms and ions, synthetic quantum systems, driven dynamics, and quantum thermodynamics.</p>
 <nav>
-<a href="#about">About</a>
-<a href="#research">Research</a>
-<a href="#publications">Publications</a>
-<a href="#talks">Talks</a>
-<a href="#teaching">Teaching</a>
-<a href="#notes">Notes</a>
-<a href="#contact">Contact</a>
+<a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#talks">Talks</a><a href="#teaching">Teaching</a><a href="#notes">Notes</a><a href="#contact">Contact</a>
 </nav>
+</div>
+<div>
+<img src="TalkPhoto - 25.jpeg" alt="Wilson presenting research talk">
+</div>
+</div>
 </header>
-<section id="about">
-<h2>About</h2>
-<p>I am a theoretical physicist working on synthetic quantum systems, quantum thermodynamics, and the dynamics of Rydberg atoms and ions. I completed my Ph.D. in Physics at the University of Tübingen (Germany).</p>
-</section>
-<section id="research">
-<h2>Research Interests</h2>
-<ul>
-<li>Rydberg atoms and ions</li>
-<li>Driven-dissipative quantum systems</li>
-<li>Open quantum systems</li>
-<li>Quantum thermodynamics</li>
-<li>Floquet physics</li>
-<li>Numerical and analytical AMO theory</li>
-</ul>
-</section>
-<section id="publications">
-<h2>Selected Publications</h2>
-<div class="card">Impact of micromotion and field-axis misalignment on the excitation of Rydberg states of ions in a Paul trap. <i>Phys. Rev. A</i> 111, 043106 (2025).</div>
-<div class="card">Quasiperiodic Floquet-Gibbs states in Rydberg atomic systems. <i>Phys. Rev. A</i> 111, L010202 (2025).</div>
-<div class="card">Rydberg-ion flywheel for quantum work storage. <i>Phys. Rev. A</i> 108, L050201 (2023).</div>
-<div class="card">Quantum simulation with Rydberg ions in a Penning trap. arXiv:2601.01626 (2026).</div>
-</section>
-<section id="talks">
-<h2>Talks & Conferences</h2>
-<ul>
-<li>Bridging Physics & Mathematics of Quantum Chaos, Helsinki (2024)</li>
-<li>13th Nottingham Symposium on Quantum Systems – Invited Talk (2023)</li>
-<li>DPG SAMOP Conference, Hannover (2023)</li>
-<li>Early Career Conference in Trapped Ions – Poster (2024)</li>
-</ul>
-</section>
-<section id="teaching">
-<h2>Teaching (Tutoring)</h2>
-<ul>
-<li>Classical Field Theory</li>
-<li>Condensed Matter Quantum Many-Body Theory</li>
-<li>Statistical Physics and Thermodynamics</li>
-<li>Physics Laboratory I & II</li>
-</ul>
-</section>
-<section id="notes">
-<h2>Physics Notes</h2>
-<p>Coming soon: short notes and explanations on Floquet systems, open quantum systems, Rydberg physics, and AMO theory.</p>
-</section>
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: wsantmartins@gmail.com</p>
-<p>GitHub: github.com/wsantmartins</p>
-<p>ORCID: 0000-0002-8425-1311</p>
-</section>
-<footer>
-<p>© 2026 Wilson S. Martins</p>
-</footer>
+<section id="about"><div class="container"><h2>About</h2><div class="card"><p>I am a theoretical physicist working on quantum systems far from equilibrium, open quantum dynamics, and the physics of Rydberg atoms and ions. My research combines analytical methods and numerical modelling in AMO physics and quantum optics. I completed my Ph.D. at the University of Tübingen, graduating magna cum laude.</p></div></div></section>
+<section id="research"><div class="container"><h2>Research Interests</h2><span class="tag">Rydberg atoms & ions</span><span class="tag">Floquet physics</span><span class="tag">Quantum thermodynamics</span><span class="tag">Open quantum systems</span><span class="tag">Driven-dissipative dynamics</span><span class="tag">AMO theory</span></div></section>
+<section id="publications"><div class="container"><h2>Selected Publications</h2><div class="grid"><div class="card">Impact of micromotion and field-axis misalignment on the excitation of Rydberg states of ions in a Paul trap.<br><i>Phys. Rev. A</i> 111, 043106 (2025).</div><div class="card">Quasiperiodic Floquet-Gibbs states in Rydberg atomic systems.<br><i>Phys. Rev. A</i> 111, L010202 (2025).</div><div class="card">Rydberg-ion flywheel for quantum work storage.<br><i>Phys. Rev. A</i> 108, L050201 (2023).</div><div class="card">Quantum simulation with Rydberg ions in a Penning trap.<br>arXiv:2601.01626 (2026).</div></div></div></section>
+<section id="talks"><div class="container"><h2>Talks & Conferences</h2><div class="grid"><div class="card">Bridging Physics & Mathematics of Quantum Chaos, Helsinki (2024)</div><div class="card">13th Nottingham Symposium on Quantum Systems — Invited Talk (2023)</div><div class="card">DPG SAMOP Conference, Hannover (2023)</div><div class="card">ECCTI — Poster (2024)</div></div></div></section>
+<section id="teaching"><div class="container"><h2>Teaching</h2><div class="grid"><div class="card">Classical Field Theory</div><div class="card">Condensed Matter Quantum Many-Body Theory</div><div class="card">Statistical Physics & Thermodynamics</div><div class="card">Physics Laboratory I & II</div></div></div></section>
+<section id="notes"><div class="container"><h2>Physics Notes</h2><div class="card">Coming soon: accessible notes on Floquet systems, Zeeman physics, open quantum systems, Rydberg atoms, and AMO methods.</div></div></section>
+<section id="contact"><div class="container"><h2>Contact</h2><div class="card"><p>Email: wsantmartins@gmail.com</p><p>GitHub: github.com/wsantmartins</p><p>ORCID: 0000-0002-8425-1311</p></div></div></section>
+<footer><div class="container">© 2026 Wilson S. Martins</div></footer>
 </body>
 </html>
+
